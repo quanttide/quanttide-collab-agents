@@ -1,0 +1,32 @@
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[project]
+# name it as your package name
+name = "quanttide-example-of-python-package"
+# semetric versions
+version = "0.1.0-alpha.1"
+# describe the package within one sentence
+description = "QuantTide Example of Python Package"
+authors = [{name = "QuantTide Inc.", email = "opensource@quanttide.com"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+requires-python = '>=3.9'
+dependencies = [
+]
+# dynamic = ["version"]
+
+[project.license]
+# create your license and name it as "LICENSE"
+file = "LICENSE"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[tool.pdm.build]
+includes = [
+    "python_package",
+]
