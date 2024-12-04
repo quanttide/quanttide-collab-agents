@@ -18,6 +18,12 @@ dependencies = [
 ]
 # dynamic = ["version"]
 
+[project.urls]
+Homepage = "https://github.com/quanttide/quanttide-collab-agents"
+Repository = "https://github.com/quanttide/quanttide-collab-agents.git"
+Issues = "https://github.com/quanttide/quanttide-collab-agents/issues"
+Changelog = "https://github.com/quanttide/quanttide-collab-agents/blob/main/CHANGELOG.md"
+
 [project.license]
 # create your license and name it as "LICENSE"
 file = "LICENSE"
