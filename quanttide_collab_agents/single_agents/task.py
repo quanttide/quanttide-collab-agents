@@ -1,7 +1,7 @@
 """
 """
 
-class TaskAgent:
+class TaskSecretary:
     def __init__(self):
         pass
 

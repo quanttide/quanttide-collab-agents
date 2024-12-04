@@ -33,8 +33,8 @@ includes = [
 
 [tool.pdm.dev-dependencies]
 dev = [
-    "volcengine-python-sdk>=1.0.111",
     "python-dotenv>=1.0.1",
+    "volcengine-python-sdk>=1.0.111",
     "httpx>=0.28.0",
     "pydantic>=2.10.2",
 ]
